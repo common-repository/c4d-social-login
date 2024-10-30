@@ -1,0 +1,28 @@
+.c4d-social-login{
+	&.facebook {
+		a {
+			background: #3B5998;
+			color: #fff;	
+			&:hover {
+				background: #8B9DC3;
+				color: #fff;
+			}
+		}
+	}
+	&.google {
+		a {
+			background: #e52d27;
+			color: #fff;
+			&:hover {
+				background: #b31217;
+				color: #fff;
+			}
+		}
+	}
+}
+.c4d-social-login-separate {
+	text-align: center;
+	margin: 20px auto;
+	text-transform: uppercase;
+	font-weight: 600;
+}
